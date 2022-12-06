@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/w3-css/4.1.0/w3.css"
+      integrity="sha512-Ef5r/bdKQ7JAmVBbTgivSgg3RM+SLRjwU0cAgySwTSv4+jYcVeDukMp+9lZGWT78T4vCUxgT3g+E8t7uabwRuw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <div class="form">
+      <div>
+        <input type="text" required id="name" placeholder="company name" />
+      </div>
+      <div>
+        <input type="text" required id="contact" placeholder="contact name" />
+      </div>
+      <div>
+        <input type="text" required id="title" placeholder="contact title" />
+      </div>
+      <button>Add Suppliers</button>
+    </div>
+    <table ">
+      <thead>
+        <th>
+          ID
+        </th>
+        <th>
+          Company Name
+        </th>
+        <th>
+          Contact Name
+        </th>
+        <th>
+          Contact Title
+        </th>
+      </thead>
+      <tbody></tbody>
+    </table>
+   <script src="app.js"></script>
+  </body>
+</html>
