@@ -35,7 +35,7 @@ function add() {
         companyName.value = element.companyName;
         contactName.value = element.contactName;
         contactTitle.value = element.contactTitle;
-        postMethod();
+       
       });
       deleteButton.addEventListener("click", (e) => {
         removeEl(apiId);
